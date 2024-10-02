@@ -1,0 +1,41 @@
+{
+  "title": "Cikey 新手村",
+  "author": "Web3KeyTalking",
+  "description": "Cikey 新手村",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "links": {
+    "sidebar": {
+      "Github": "https://github.com/Web3KeyTalking/web3book"
+    }
+  },
+  "plugins": [
+    "last-update-time",
+    "mygitalk",
+    "-sharing",
+    "splitter",
+    "expandable-chapters-small",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "last-update-time": {
+      "label": "最后更新时间: ",
+      "format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "mygitalk": {
+      "clientID": "Ov23liPnRmm5jy89oxrG",
+      "clientSecret": "d6f08f93baf84b0e60b7bdce3a6f12ad30dff0a3",
+      "repo": "gittalk",
+      "owner": "Web3KeyTalking",
+      "admin": [
+        "Web3KeyTalking"
+      ],
+      "proxy": "https://web3book.cikey.cc/login/oauth/access_token",
+      "distractionFreeMode": false
+    },
+    "expandable-chapters": {},
+    "anchor-navigation-ex": {
+      "showLevel": false
+    }
+  }
+}
